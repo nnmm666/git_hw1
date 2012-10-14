@@ -42,9 +42,7 @@ html {	width:960px;
 body{
 			width:960px; height:1320px; 
 			background-color:#5ba781;
-			-moz-border-radius-topleft:15px;
-		-moz-border-radius-topright: 15px;
-		border-radius: 15px 15px 0 0;
+			border-radius: 15px 15px 0 0;
 
 		}
 
@@ -52,8 +50,6 @@ body{
 		background-color: #3ad05e;
 		width:920px;
 		padding:20px;
-		-moz-border-radius-topleft: 15px;
-		-moz-border-radius-topright: 15px;
 		border-radius: 15px 15px 15px 15px;;
 }
 #header{
@@ -101,8 +97,6 @@ h1 {
 		text-align:center;
 		width:900px;
 		background-color:#91ffc7;
-		-moz-border-radius-topleft: 15px;
-		-moz-border-radius-topright: 15px;
 		border-radius: 15px 15px 15px 15px;
 	}
 	h1{
@@ -138,8 +132,6 @@ h1 {
 		background-color:#91ffc7;
 		width:600px;	
 		text-align: center;
-		-moz-border-radius-topleft: 15px;
-		-moz-border-radius-topright: 15px;
 		border-radius: 15px 15px 15px 15px;
 			margin-right:60px;
 	}
@@ -163,8 +155,6 @@ h1 {
 		background-color:#91ffc7;
 		float:left;
 		text-align: center;
-		-moz-border-radius-topleft: 15px;
-		-moz-border-radius-topright: 15px;
 		border-radius: 15px 15px 15px 15px;
 			margin-right:100px;
 
@@ -195,8 +185,6 @@ h1 {
 		padding-bottom:13px; padding-left:7px;
 		background-color:#91ffc7;
 		text-align: center;
-		-moz-border-radius-topleft: 15px;
-		-moz-border-radius-topright: 15px;
 		border-radius: 15px 15px 15px 15px;
 			margin-right:60px;
 			height:15px;
@@ -263,8 +251,6 @@ table td
 		background-color:#91ffc7;
 		
 		text-align: center;
-		-moz-border-radius-topleft: 15px;
-		-moz-border-radius-topright: 15px;
 		border-radius: 15px 15px 15px 15px;
 			margin:100px;
 
