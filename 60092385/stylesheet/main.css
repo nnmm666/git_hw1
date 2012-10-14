@@ -33,16 +33,16 @@ a:hover, a:active {color:#C23700;}
 
 #top {float:right;}
 a:hover,a:active I { 
-					border-bottom:red;
 					border:solid;
 					color:blue;
 					background-color:red
 					}
-html {width:960px;float:center;
-		background-color}
-		body{
-			width:960px; height:1320px; background-color:#5ba781;
-			-moz-border-radius-topleft: 15px;
+html {	width:960px;
+		}
+body{
+			width:960px; height:1320px; 
+			background-color:#5ba781;
+			-moz-border-radius-topleft:15px;
 		-moz-border-radius-topright: 15px;
 		border-radius: 15px 15px 0 0;
 
@@ -70,7 +70,7 @@ html {width:960px;float:center;
 			text-shadow:3px 3px 5px blue;}
 
 #navi {width:940px; height:40px;background-color:#03497d;}
-#navi ul {margin:0;padding:20;}
+#navi ul {margin:0;padding:20px;}
 #navi>li  {float:left; display:block; width:180px;padding:1px;
 				text-align:center; margin-right:1px;
 				font: bold 12px/30px Tahoma;
@@ -86,9 +86,8 @@ html {width:960px;float:center;
 }
 #main-content {background:#fff; overflow:auto; padding:0;}
 #content-1 { width:1050px; float:left; padding:10px;
-			margin:auto; display:inline-block; height:150;}
+			margin:auto; display:inline-block; height:150px;}
 #content-2 { 
-			width:px; 
 			float:left; 
 			font-size:12px;
 			}
@@ -154,8 +153,8 @@ h1 {
 	}
 	
 	h3
-	{	width:150;
-		height:30;
+	{	width:150px;
+		height:30px;
 		padding-top:10px;
 		margin-bottom:10px;
 		font-size: 24px;
@@ -176,15 +175,17 @@ h1 {
 	.content-1-content li
 	{
 		display:block;
-		width:200px;
-		margin-left:50px;padding:50px;
+		width:350px;
 		float: left;
+		padding-left:70px;
+		margin-top: 30px
 	}
 .content-2-content li{
 		display:block;
 		width:200px;
 		margin-left:50px;padding:0px;
 		float: left;
+		margin-top:20px;
 	}
 
 	#content-3-title
@@ -205,9 +206,14 @@ h1 {
 .subcontent-2-content li
 {		
 	    display:block;
-		float:center;
-		margin: 20px;
+		margin:20px;
 
+}
+#content-2
+{
+	padding:150px;
+	padding-bottom:200px;
+	margin-bottom:50px;
 }
 #fff{
 	padding:20px;
@@ -222,7 +228,7 @@ table{
 
 		width:800px;
 		height:800px;
-		float:center;
+		
 		margin:50px;
 }
 table td 
@@ -242,19 +248,20 @@ table td
 #deco
 {
 
- 	float:center;
+ 	
 	padding:50px;
 	text-align:center;
 }
-#deco a {width:120;
-		height:20;
+#deco a {
+		width:120px;
+		height:100px;
 		padding-top:5px;
 		margin-bottom:10px;
 		font-size: 15px;
 		color:white;
 		padding-right:20px;
 		background-color:#91ffc7;
-		float:center;
+		
 		text-align: center;
 		-moz-border-radius-topleft: 15px;
 		-moz-border-radius-topright: 15px;
@@ -262,4 +269,31 @@ table td
 			margin:100px;
 
 
+}
+.content-1-content>img {
+	display:block;
+	margin:50px;
+}
+#content-2{
+	margin-top:30px;
+}
+
+#main2-content
+{
+	margin-top: 40px;
+
+}
+.main2-sub-content li{
+
+	float:left;
+	width:350px;
+	margin-left:30px;
+	padding:30px;
+}
+#deco ul{
+	margin-top: 30px;
+}
+
+textarea{
+	margin-left:20px;
 }
